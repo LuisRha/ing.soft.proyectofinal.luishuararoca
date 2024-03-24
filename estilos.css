@@ -2,7 +2,7 @@
 
 .navbar{
     padding:2rem;
-    background-color:#edeff1;
+    background-color:#789fec;
 }
 .navbar-collapse {
     align-items: center;
@@ -110,7 +110,7 @@ h1{
 }
 /*seccion principal (hero)*/
 .hero{
-    background-color:#f5f6f7;
+    background-color:#f7f6f5;
     min-height:450px;
     text-align: center;
 }
