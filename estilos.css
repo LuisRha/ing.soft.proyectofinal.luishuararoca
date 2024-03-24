@@ -2,7 +2,7 @@
 
 .navbar{
     padding:2rem;
-    background-color:#7996d4;
+    background-color: rgb(149, 178, 219);
 }
 .navbar-collapse {
     align-items: center;
@@ -80,11 +80,12 @@ h1{
 .seccion-oscura{
   background-color:#325f9b;
   color:white;
-  background-image: url('pagina2.gif');
+  background-image: url('tecnologia1.gif'); 
   background-color:#f5f7f5;
   min-height:450px;
   text-align: justify;
   background-size: cover;
+  background-color: rgb(72, 94, 124);
   
 }
 .seccion-clara{
@@ -116,7 +117,7 @@ h1{
 }
 /*seccion principal (hero)*/
 .hero{
-    background-image: url('tecnologia.gif');
+    background-image: url('tecnologia2.gif');
     background-color:#f5f7f5;
     min-height:450px;
     text-align: center;
@@ -136,7 +137,7 @@ h1{
 }
 .hero-principal h2{
   font-size:1.5 rem;
-  color:#615151;
+  color:#e9ac3a;
 }
 @media screen and(min-width:700px){
 .hero-inferior-imagen{
