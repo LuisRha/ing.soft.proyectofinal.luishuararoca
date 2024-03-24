@@ -110,9 +110,11 @@ h1{
 }
 /*seccion principal (hero)*/
 .hero{
-    background-color:#f7f6f5;
+    background-image: url('tecnologia.gif');
+    background-color:#f5f7f5;
     min-height:450px;
     text-align: center;
+    background-size: cover;
 }
 
 .hero-principal{
