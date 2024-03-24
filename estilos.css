@@ -2,7 +2,7 @@
 
 .navbar{
     padding:2rem;
-    background-color: rgb(149, 178, 219);
+    background-color: rgb(146, 212, 253);
 }
 .navbar-collapse {
     align-items: center;
@@ -88,6 +88,24 @@ h1{
   background-color: rgb(72, 94, 124);
   
 }
+
+/*animacion caminando*/
+.animacion-desplazamiento {
+  animation: desplazamiento 50s ease-in-out infinite;
+}
+
+@keyframes desplazamiento {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .seccion-clara{
   color:black;
   background-color: rgb(204, 213, 226);;
