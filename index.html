@@ -23,6 +23,8 @@
   <!--iconos-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <!--java scrip luis h-->
+<!--<script src="navegacion.js"></script>-->
+
 
   
 </head>
@@ -42,19 +44,22 @@
         
     
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://portafolio-19-luisrha.netlify.app/" target="_blank" rel="noopener noreferrer">Sobre mi </a> 
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+            </li>
+            
+            
           </li>
         
           
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://baulrojo-azit1fuzc-luisrha.vercel.app/" target="_blank" rel="noopener noreferrer">Testimonios</a>
+            <a class="nav-link" href="#servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contácto</a>
+            <a class="nav-link" href="#contactos">Contactos</a>
            
           </li>
         </ul>
@@ -76,17 +81,19 @@
         <!-- <img class="hero-inferior-imagen img-fluid" src="images/android1.png"> -->
       </div>
     </section>
-    <section class="sobre-mi seccion-oscura"> 
+    <section id="sobre-mi" class="sobre-mi seccion-oscura"> 
+       
       <div class="contenedor"> 
         <h2 class="seccion-titulo"> 
           Conoce a Luisitos
         </h2>
         <p class="seccion-texto">
-         <h4> Soy desarrollador web Full Stack enfocado en el front-end del desarrollo de aplicaciones y plataformas web, en la cual, siempre estoy dispuesto en mejorar mis habilidades, creando proyectos, midiéndome a retos y con la motivación de seguir aprendiendo. La tecnología es mi fuente de inspiración y la programación, mi forma de expresión. Me sumerjo con entusiasmo en los desafíos de este emocionante campo, buscando siempre aprender y mejorar. A medida que navego por las complejidades de la creación digital, encuentro satisfacción en transformar ideas en realidad a través del arte del código. </h4></p>
+         <h4> Soy desarrollador web Full Stack enfocado en el front-end del desarrollo de aplicaciones y plataformas web, en la cual, siempre estoy dispuesto en mejorar mis habilidades, creando proyectos, midiéndome a retos y con la motivación de seguir aprendiendo. La tecnología es mi fuente de inspiración y la programación, mi forma de expresión. Me sumerjo con entusiasmo en los desafíos de este emocionante campo, buscando siempre aprender y mejorar. A medida que navego por las complejidades de la creación digital, encuentro satisfacción en transformar ideas en realidad a través del arte del código. </h4>
+        </p>
       </div>
     </section>
     <!--seccion experiencia-->
-    <section class="experiencia seccion-clara"> 
+    <section  id="servicios" class="experiencia seccion-clara"> 
       <div class="container text-center">
         <div class="row">
           <div class="columna col-12 col-md-4">
@@ -127,7 +134,8 @@
       </div>
     </section>
     <!--proyectos-->
-    <seccion class="proyectos-recientes seccion-clara d-flex flex-column"> 
+    
+    <seccion id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column"> 
       <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
       <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
       <!--galeria de proyectos-->
@@ -241,13 +249,21 @@
       </div>
       
     </seccion>
-    <div class="botoncito">
+    <div id="contactos" class="botoncito">
     <a href="https://www.linkedin.com/in/luis-h-53905a120/" target="_blank" rel="noopener noreferrer">
       <button type="button" class="btn btn-info">
       Mas información => linkedin
         <i class="bi bi-arrow-right-circle-fill"></i>
       </button>
     </a>
+
+    <div class="mb-3" style="width: 500px;">
+      <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje aquí</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+      <button type="button">Enviar Email 📧</button>
+  </div>
+  
+
     </div>
     <!--artículos-->
     <!-- <section class="articulos justify-content-start">
