@@ -2,7 +2,7 @@
 
 .navbar{
     padding:2rem;
-    background-color:#789fec;
+    background-color:#7996d4;
 }
 .navbar-collapse {
     align-items: center;
@@ -78,8 +78,14 @@ h1{
 }
 
 .seccion-oscura{
-  background-color:#1b1b32;
+  background-color:#325f9b;
   color:white;
+  background-image: url('pagina2.gif');
+  background-color:#f5f7f5;
+  min-height:450px;
+  text-align: justify;
+  background-size: cover;
+  
 }
 .seccion-clara{
   color:black;
