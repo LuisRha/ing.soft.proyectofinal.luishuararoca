@@ -96,15 +96,17 @@ h1{
 
 @keyframes desplazamiento {
   0% {
-    transform: translateX(0);
+    transform: translateX(0) scaleX(1); /* No volteada */
   }
   50% {
-    transform: translateX(200px);
+    transform: translateX(1000%) scaleX(1); /* No volteada */
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(0) scaleX(-0); /* Volteada horizontalmente */
   }
+  
 }
+
 
 .seccion-clara{
   color:black;
